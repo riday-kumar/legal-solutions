@@ -8,3 +8,7 @@ main > section {
   text-align: center;
   font-family: "EB Garamond", serif;
 }
+
+.bg-custom {
+  background-color: rgba(17, 17, 17, 0.8);
+}
