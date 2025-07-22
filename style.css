@@ -7,6 +7,19 @@ main > section {
   font-weight: 900;
   text-align: center;
   font-family: "EB Garamond", serif;
+  color: #414040;
+}
+
+.dark-2 {
+  color: #414040;
+}
+
+.dark-3 {
+  color: #707070;
+}
+
+.dark-7 {
+  background-color: #f3f3f3;
 }
 
 .bg-custom {
