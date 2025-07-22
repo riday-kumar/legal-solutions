@@ -13,10 +13,12 @@
     <link rel="stylesheet" href="tailwind.config.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="w-full lg:w-5xl xl:w-6xl lg:m-auto font-poppins">
-    <header class="mx-2 lg:mx-0">
+  <body class="font-poppins">
+    <header class="w-full lg:w-5xl xl:w-6xl lg:m-auto">
       <!-- navbar -->
-      <nav class="flex justify-between flex-col lg:flex-row items-center py-12">
+      <nav
+        class="flex justify-between flex-col lg:flex-row items-center py-12 mx-2 lg:mx-0"
+      >
         <div class="logo mb-5 lg:mb-0">
           <img src="./images/logo2.png" alt="" />
         </div>
@@ -59,7 +61,7 @@
       </nav>
       <!-- banner -->
       <div
-        class="text-center bg-[url(/images/banner.png)] bg-blend-overlay bg-custom bg-no-repeat bg-top-right lg:bg-center bg-cover rounded-[8px] py-28"
+        class="text-center bg-[url(/images/banner.png)] bg-blend-overlay bg-custom bg-no-repeat bg-top-right lg:bg-center bg-cover rounded-[8px] py-28 mx-2 lg:mx-0"
       >
         <div class="w-full md:w-xl lg:w-2xl md:m-auto">
           <h1
@@ -87,7 +89,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="w-full lg:w-5xl xl:w-6xl lg:m-auto">
       <!-- Legal Practice Area -->
       <section class="legal-practice mx-2 lg:mx-0">
         <div class="mb-15">
@@ -117,7 +119,7 @@
           <div
             class="py-6 md:py-14 px-[10px] lg:px-[72px] flex flex-col items-center text-center md:border-b-[1px] lg:border-[1px] md:border-[#E7E7E7] hover:bg-gradient-to-t from-[rgba(243,243,243,0)] to-[#F3F3F3]"
           >
-            <img class="mb-8" src="./images/business.png" alt="" />
+            <img class="mb-8" src="./images/education.png" alt="" />
             <h4 class="dark-2 font-eb-garamond font-bold text-3xl mb-6">
               Business Law
             </h4>
@@ -131,7 +133,7 @@
           <div
             class="py-6 md:py-14 px-[10px] lg:px-[72px] flex flex-col items-center text-center md:border-b-[1px] md:border-[#E7E7E7] hover:bg-gradient-to-t from-[rgba(243,243,243,0)] to-[#F3F3F3]"
           >
-            <img class="mb-8" src="./images/business.png" alt="" />
+            <img class="mb-8" src="./images/child.png" alt="" />
             <h4 class="dark-2 font-eb-garamond font-bold text-3xl mb-6">
               Business Law
             </h4>
@@ -145,7 +147,7 @@
           <div
             class="py-6 md:py-14 px-[10px] lg:px-[72px] flex flex-col items-center text-center md:border-b-[1px] md:border-[#E7E7E7] lg:border-0 hover:bg-gradient-to-t from-[rgba(243,243,243,0)] to-[#F3F3F3]"
           >
-            <img class="mb-8" src="./images/business.png" alt="" />
+            <img class="mb-8" src="./images/criminal.png" alt="" />
             <h4 class="dark-2 font-eb-garamond font-bold text-3xl mb-6">
               Business Law
             </h4>
@@ -159,7 +161,7 @@
           <div
             class="py-6 md:py-14 px-[10px] lg:px-[72px] flex flex-col items-center text-center lg:border-l-[1px] lg:border-r-[1px] lg:border-[#E7E7E7] hover:bg-gradient-to-t from-[rgba(243,243,243,0)] to-[#F3F3F3]"
           >
-            <img class="mb-8" src="./images/business.png" alt="" />
+            <img class="mb-8" src="./images/divorce.png" alt="" />
             <h4 class="dark-2 font-eb-garamond font-bold text-3xl mb-6">
               Business Law
             </h4>
@@ -173,7 +175,7 @@
           <div
             class="py-6 md:py-14 px-[10px] lg:px-[72px] flex flex-col items-center text-center hover:bg-gradient-to-t from-[rgba(243,243,243,0)] to-[#F3F3F3]"
           >
-            <img class="mb-8" src="./images/business.png" alt="" />
+            <img class="mb-8" src="./images/tax.png" alt="" />
             <h4 class="dark-2 font-eb-garamond font-bold text-3xl mb-6">
               Business Law
             </h4>
@@ -384,7 +386,71 @@
           </div>
         </div>
       </section>
-      <section></section>
     </main>
+    <footer class="bg-black mt-24">
+      <div class="w-full lg:w-5xl xl:w-6xl lg:m-auto">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center py-24 text-center gap-8"
+        >
+          <!-- footer column - one -->
+          <div>
+            <img class="m-auto mb-2.5" src="./images/logo.png" alt="" />
+            <p class="text-[#707070]">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+          </div>
+          <!-- footer column - two -->
+          <div>
+            <h3
+              class="text-white font-eb-garamond font-extrabold text-2xl mb-2.5"
+            >
+              Usefull Link
+            </h3>
+            <ul class="list-none">
+              <li><a href="" class="text-[#707070]">Home</a></li>
+              <li><a href="" class="text-[#707070]">About Us</a></li>
+              <li><a href="" class="text-[#707070]">Cases</a></li>
+              <li><a href="" class="text-[#707070]">Blog</a></li>
+              <li><a href="" class="text-[#707070]">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- footer column - three -->
+          <div>
+            <h3
+              class="text-white font-eb-garamond font-extrabold text-2xl mb-2.5"
+            >
+              Contact Now
+            </h3>
+            <p class="text-[#707070]">
+              555 4th 5t NW, Washington <br />
+              DC 20530, United States
+            </p>
+            <br />
+            <p class="text-[#707070]">
+              +88 01750 000 000 <br />
+              +88 01750 000 000
+            </p>
+            <br />
+            <p class="text-[#707070]">
+              info@gmail.com <br />
+              info@gmail.com
+            </p>
+          </div>
+          <!-- footer column - four -->
+          <div>
+            <h3
+              class="text-white font-eb-garamond font-extrabold text-2xl mb-2.5"
+            >
+              Subscribe
+            </h3>
+            <p class="text-[#707070]">
+              Subscribe for our latest & Articles. We Won’t Give You Spam Mails
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
